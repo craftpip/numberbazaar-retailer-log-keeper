@@ -6,7 +6,7 @@ copy %logfile% %str%.csv
 echo put %str%.csv > temp.csv
 echo quit >> temp.csv
 ::ftps -a -z -e:on -user:logging -password:logging -s:temp.txt ftp.numberbazaar.com
-C:\nb\ftps.exe -a -z -e:on -user:rawlog -password:bt9ba48cvkil -s:C:\nb\temp.csv numberbazaar.com
+C:\nb\ftps.exe -a -z -e:on -user:rawlog -password:8c3xdvwuzxl9 -s:C:\nb\temp.csv numberbazaar.com
 echo the error level is : %ERRORLEVEL%
 if %ERRORLEVEL%==0 set err=no
 del temp.csv
